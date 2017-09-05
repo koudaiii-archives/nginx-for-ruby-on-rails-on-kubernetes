@@ -18,7 +18,7 @@ spec:
       volumes:
         - name: nginx-conf
           configMap:
-            name: nginx-config
+            name: nginx-conf
         - name: public
         - name: tmp
       containers:
